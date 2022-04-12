@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family:  sans-serif;
+  background-image: url("https://i1.wp.com/sociallover.net/wp-content/uploads/2017/06/nature-images.png");
+  min-height: 92vh;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.header h4 {
+  color:#050407;
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.app-main {
+  min-height: 10vh;
+  width: 30vw;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  text-align: center;
+  border-radius: 15px;
+  background:  rgba(0, 0, 0, 0.3);
+ 
+}
+.app-main > * {
+  margin-bottom: 20px;
+}
+.input-box {
+  width: 70%;
+  background: rgb(214, 230, 230);
+  color: #030100;
+  font-weight: 500;
+  border: none;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+.weather-body {
+  color: #fff;
+  padding: 20px;
+  line-height: 2rem;
+  border-radius: 10px;
+  background-color: #eff1f3;
+  display: none;
+  background: rgba(0, 0, 0, 0.3);
+ 
+}
+.location-deatils {
+  font-weight: bold;
+}
+.weather-status {
+  padding: 20px;
+}
+.temp {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px 0px;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+.weather {
+  margin-top: 25px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.min-max {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.day_details {
+  padding: 20px;
+}
+.sun-detail,
+.basic {
+  font-size: 1rem;
+}
+#weather-icon {
+  color: black;
+}
+
+
+@media screen and (max-width: 800px) {
+  .app-main {
+    width: 95%;
+    padding: 10px;
+  }
+  body {
+    min-height: 94vh;
+  }
+}
